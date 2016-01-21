@@ -10,8 +10,9 @@ public class QueryProcessor {
         }
 
         if (query.toLowerCase().contains("basil")) {
-            return "basil returns basil";
+            return "basil returns basil and thomas returns thomas";
         }
+
         return "";
     }
 }
